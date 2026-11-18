@@ -1,0 +1,5 @@
+name=turso-v1
+protocol=1
+model=relational
+executable=polydb-turso-worker
+dataset=data/relational.db

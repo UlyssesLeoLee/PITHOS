@@ -1,0 +1,6 @@
+# Executable should be an absolute path or be resolvable via PATH.
+name=kv-v1
+protocol=1
+model=kv
+executable=polydb-worker
+dataset=data/kv.wal

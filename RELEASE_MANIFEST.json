@@ -1,0 +1,19 @@
+{
+  "product": "PolyDB V1 research baseline",
+  "version": "0.1.0",
+  "as_of": "2026-11-18",
+  "status": "not tested/not production",
+  "ipa_certification": false,
+  "rust_build_executed": false,
+  "files": 60,
+  "documentation_files": 22,
+  "rust_source_files": 18,
+  "requirements": 22,
+  "test_cases": 32,
+  "critical_risks": 3,
+  "source_urls": [
+    "https://www.ipa.go.jp/publish/secbooks20130304.html",
+    "https://www.ipa.go.jp/archive/digital/iot-en-ci/jyouryuu/hikinou/ent03-b.html",
+    "https://github.com/tursodatabase/turso"
+  ]
+}

@@ -1,0 +1,10 @@
+[package]
+name = "polydb-turso-worker"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+polydb = { path = "../.." }
+turso = "=0.8.3"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

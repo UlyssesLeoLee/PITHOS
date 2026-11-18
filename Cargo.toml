@@ -1,0 +1,24 @@
+[package]
+name = "polydb"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Multi-model plugin database V1: fail-closed hot swap and embedded WAL storage"
+
+[lib]
+name = "polydb"
+path = "src/lib.rs"
+
+[[bin]]
+name = "polydb"
+path = "src/bin/polydb.rs"
+
+[[bin]]
+name = "polydb-worker"
+path = "src/bin/polydb-worker.rs"
+
+[dependencies]
+
+[[bin]]
+name = "polydb-bench"
+path = "src/bin/polydb-bench.rs"

@@ -1,0 +1,5 @@
+name=kv-v2
+protocol=1
+model=kv
+executable=polydb-worker
+dataset=data/kv.wal
